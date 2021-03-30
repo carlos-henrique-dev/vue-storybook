@@ -1,7 +1,7 @@
 
 ## TASKBOX-STORYBOOK 
 
-This project was made following the sotybook's official documentation on storybook with vue.js. And the goal as to learn how to use the liberary to improve the development of Vue components. It also covers some testing with Jest
+This project was made following the sotybook's [official documentation](https://storybook.js.org/tutorials/intro-to-storybook/vue/en/get-started/) on storybook with vue.js. And the goal as to learn how to use the liberary to improve the development of Vue components. It also covers some testing with Jest
 
 ## Final screen
 ![Final screen](/screenshtos/final-result.png)
