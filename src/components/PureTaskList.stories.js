@@ -1,18 +1,18 @@
-import TaskList from "./TaskList";
+import PureTaskList from "./PureTaskList";
 import * as TaskStories from "./Task.stories";
 
 export default {
-  component: TaskList,
-  title: "TaskList",
+  component: PureTaskList,
+  title: "PureTaskList",
   decorators: [() => '<div style="padding: 3rem;"><story/></div>']
 };
 
 const Template = (args, { argTypes }) => ({
-  components: { TaskList },
+  components: { PureTaskList },
   props: Object.keys(argTypes),
   methods: TaskStories.actionsData,
   template:
-    '<TaskList v-bind="$props" @pin-task="onPinTask" @archive-task="onArchiveTask"/>'
+    '<PureTaskList v-bind="$props" @pin-task="onPinTask" @archive-task="onArchiveTask"/>'
 });
 
 export const Default = Template.bind({});
