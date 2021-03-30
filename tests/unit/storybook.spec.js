@@ -1,3 +1,7 @@
-import initStoryshots from "@storybook/addon-storyshots";
+// import initStoryshots from "@storybook/addon-storyshots";
 
-initStoryshots();
+// initStoryshots();
+
+it("run snapshot", () => {
+  expect(1).toBe(1);
+});
